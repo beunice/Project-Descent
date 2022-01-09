@@ -1,0 +1,22 @@
+Physics handbook.
+
+Set object to child of obj_physics.
+
+Use the Python script SI - pixels/frames converter. This physics engine works in SI units but does not convert for you, so make your conversions there.
+Inside of step event:
+1. Set variables.
+	mass = [Mass in kg]
+	dx = [direction of xforce] - Usually "rightkey - leftkey" set to 1 for right force, -1 for left force. 0 for null.
+	dy = [direction of yforce] - Could be a number of things, but 1 is up, -1 is down, 0 for null.
+	xforce = [x force in Newtons]
+	yforce = [y force in Newtons]
+
+2. Turn on physics + modules you want.
+	physics - toggles physics.
+	tsim** - toggles translation.
+	fsim - toggles friction.
+	rsim* - toggles rotation.
+	gsim - toggles gravity.
+
+*Not yet available.
+**Available, but on by default, and currently cannot be turned off.
