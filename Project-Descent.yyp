@@ -1,15 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"Sprite12","path":"sprites/Sprite12/Sprite12.yy",},"order":14,},
     {"id":{"name":"ts_test","path":"tilesets/ts_test/ts_test.yy",},"order":0,},
     {"id":{"name":"spr_background_test","path":"sprites/spr_background_test/spr_background_test.yy",},"order":5,},
     {"id":{"name":"spr_testpill","path":"sprites/spr_testpill/spr_testpill.yy",},"order":8,},
     {"id":{"name":"Physics Handbook","path":"notes/Physics Handbook/Physics Handbook.yy",},"order":7,},
     {"id":{"name":"ts_bouncematerial","path":"tilesets/ts_bouncematerial/ts_bouncematerial.yy",},"order":2,},
     {"id":{"name":"rm_planettest","path":"rooms/rm_planettest/rm_planettest.yy",},"order":2,},
+    {"id":{"name":"ts_purplerey","path":"tilesets/ts_purplerey/ts_purplerey.yy",},"order":5,},
     {"id":{"name":"snd_playerwalkhard1","path":"sounds/snd_playerwalkhard1/snd_playerwalkhard1.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":14,},
     {"id":{"name":"spr_invisiblewall","path":"sprites/spr_invisiblewall/spr_invisiblewall.yy",},"order":1,},
     {"id":{"name":"obj_text_controls","path":"objects/obj_text_controls/obj_text_controls.yy",},"order":8,},
+    {"id":{"name":"rm_tileset_greenery","path":"rooms/rm_tileset_greenery/rm_tileset_greenery.yy",},"order":3,},
     {"id":{"name":"obj_testpill","path":"objects/obj_testpill/obj_testpill.yy",},"order":6,},
     {"id":{"name":"spr_bouncematerial_ts","path":"sprites/spr_bouncematerial_ts/spr_bouncematerial_ts.yy",},"order":10,},
     {"id":{"name":"obj_unitsquare","path":"objects/obj_unitsquare/obj_unitsquare.yy",},"order":4,},
@@ -48,6 +51,7 @@
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_test_physics","path":"rooms/rm_test_physics/rm_test_physics.yy",},},
     {"roomId":{"name":"rm_planettest","path":"rooms/rm_planettest/rm_planettest.yy",},},
+    {"roomId":{"name":"rm_tileset_greenery","path":"rooms/rm_tileset_greenery/rm_tileset_greenery.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -73,7 +77,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "Project-Descent",
